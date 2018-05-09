@@ -60,7 +60,21 @@ public class PTra04_05 {
 
 
 			}
+			
+			if(myHand == 0 && (cpuHand == 0 || cpuHand == 2)) {
+				System.out.println("継続");
+			}else if(myHand == 1 && (cpuHand ==1 || cpuHand == 0)) {
+				System.out.println("継続");
+			}else if(myHand == 2 && (cpuHand == 2 || cpuHand == 1)) {
+				
+			}else if(myHand < 0 || 2 < myHand) {
+				System.out.println("0～2から選択してください。");
+			}else {
+				winFlg = true;
+			}
+			
 
 		}
+		System.out.println("勝利");
 	}
 }
