@@ -6,7 +6,7 @@
  */
 package practice14.ptra14;
 
-public class PTra14_01 {
+public class PTra14_01{
 
 	/*
 	 * ★ common.Courseを実装した、JavaCourseクラスを作成してください
@@ -22,5 +22,21 @@ public class PTra14_01 {
 	 * 		継承
 	 * 		高度な継承
 	 */
+
+	/*public static void main(String[] args) {
+		JavaCourse course = new JavaCourse();
+
+		System.out.println(course.getCourseName());
+
+		String[] list = course.getCourseUnit();
+
+		for (String string : list) {
+			System.out.println(string);
+		}
+
+	}*/
+
+
+
 
 }
