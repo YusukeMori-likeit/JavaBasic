@@ -6,6 +6,7 @@
  */
 package practice16;
 
+
 public class PTra16_02 {
 	public static void main(String[] args) {
 
@@ -19,5 +20,16 @@ public class PTra16_02 {
 		double d = 453.592;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
+		Boolean b1 = b;
+		Byte by1 = by;
+		Short s1 = s;
+		Character c1 = c;
+		Integer i1 = i;
+		Long l1 = l;
+		Float f1 = f;
+		Double d1 = d;
+
+
+
 	}
 }
